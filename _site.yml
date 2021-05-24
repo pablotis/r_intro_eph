@@ -1,0 +1,41 @@
+name: "intro_r_eph"
+title: "Inicio"
+description: "R + EPH-INDEC"
+output_dir: "_site"
+navbar:
+  # logo:
+  #   image: https://www.utdt.edu/Images/ui2014/logo.png
+  #   href: https://www.utdt.edu
+  left:
+    - text: "Profesor"
+      href: bio.html
+  right:
+    - text: "Puesta a punto"
+      href: puesta_a_punto.html
+    - text: "Modulos"
+      menu:
+        - text: "01 - R base - Presentacion"
+          href: 01_r_intro_presentacion.html
+        - text: "01 - R base - Contenido"
+          href: 01_r_intro_contenido.html
+        - text: "02 - Proyecto de trabajo - Presentacion"
+#          href: publish_article.html
+        - text: "02 - Proyecto de trabajo - Contenido"
+#          href: publish_article.html
+        - text: "03 - Herramientas de procesamiento de datos"
+#          href: publish_article.html
+        - text: "04 - Herramientas para la vizualizacion de datos"
+#          href: publish_article.html
+        - text: "05 - Elaboracion de informes/reportes"
+#          href: publish_article.html
+        - text: "05 - Panel de datos"
+#          href: publish_article.html
+    - text: "Ejercitacion"
+      menu:
+        - text: "01 - R base - Practica"
+          href: 01_r_intro_practica.html
+    - text: "Bibliografia"
+      href: biblio.html
+      
+      
+output: distill::distill_article

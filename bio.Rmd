@@ -1,0 +1,21 @@
+---
+title: "Profe"
+description: |
+ \¿guien so? 
+site: distill::distill_website
+---
+
+**Pablo Tiscornia**
+
+Sociólogo (UBA), especializado en metodología, producción y procesamiento de datos estadísticos, principalmente en el ámbito público.
+
+Me intrigan los procesos de trabajo, eso y eso también.
+
+
+
+Mi experiencias con R pasaron por la participación y organización de la comunidad de R en Buenos Aires y el desarrollo de paquetes de `R` para [facilitar herramientas y el acceso a datos de la Encuesta Permanente de Hogares - INDEC](https://holatam.github.io/eph/).
+
+icons::fontawesome("twitter")`](https://twitter.com/pabblo_h) [TuQmano](https://twitter.com/pabblo_h) icons::fontawesome("github")`](https://github.com/pablotis) [/pablotis](https://github.com/pablotis/)
+
+------------------------------------------------------------------------
+
