@@ -1,6 +1,6 @@
-name: "intro_r_eph"
+name: "intro_r_citra"
 title: "Inicio"
-description: "R + EPH-INDEC"
+description: "R + CITRA-UMET"
 output_dir: "_site"
 navbar:
   # logo:
@@ -12,30 +12,30 @@ navbar:
   right:
     - text: "Puesta a punto"
       href: puesta_a_punto.html
-    - text: "Modulos"
+    - text: "Diapositivas"
       menu:
-        - text: "01 - R base - Presentacion"
-          href: 01_r_intro_presentacion.html
-        - text: "01 - R base - Contenido"
-          href: 01_r_intro_contenido.html
-        - text: "02 - Proyecto de trabajo - Presentacion"
+        - text: "Modulo 01.a - Intro a la EPH"
+#          href: 0a_diapositivas/01a_r_intro_eph.html  
+        - text: "Modulo 01.b - Intro a R base"
+#          href: 0a_diapositivas/01b_r_intro_presentacion.html
+        - text: "Modulo 01.c - Proyecto de trabajo"
+#          href: 0a_diapositivas/01c_r_proyecto_de_trabajo.html
+        - text: "Modulo 02 - Herramientas de procesamiento de datos"
 #          href: publish_article.html
-        - text: "02 - Proyecto de trabajo - Contenido"
-#          href: publish_article.html
-        - text: "03 - Herramientas de procesamiento de datos"
-#          href: publish_article.html
-        - text: "04 - Herramientas para la vizualizacion de datos"
-#          href: publish_article.html
-        - text: "05 - Elaboracion de informes/reportes"
-#          href: publish_article.html
-        - text: "05 - Panel de datos"
+        - text: "Modulo 03 - Herramientas para la vizualizacion de datos"
 #          href: publish_article.html
     - text: "Ejercitacion"
       menu:
-        - text: "01 - R base - Practica"
-          href: 01_r_intro_practica.html
+        - text: "Modulo 01.a - R base - Practica"
+#          href: 0b_ejercitacio/01_r_intro_practica.html
+        - text: "Modulo 02 - Herramientas de procesamiento de datos"
+#          href: publish_article.html
+        - text: "Modulo 03 - Herramientas para la vizualizacion de datos"
+#          href: publish_article.html
     - text: "Bibliografia"
       href: biblio.html
+    - icon: fab fa-github
+      href: https://github.com/pablotis
       
       
 output: distill::distill_article

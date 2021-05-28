@@ -1,72 +1,48 @@
 ---
 title: "Introducción al procesamiento de datos con R para Ciencias Sociales"
-description: "Aplicación práctica en la EPH-INDEC"
+description: "Aplicación práctica en la Encuesta Permanente de Hogares (EPH-INDEC)"
 authot: 
   - name: Pablo Tiscornia
 site: distill::distill_website
 ---
 
-  
 ## Objetivos del curso
   
-El presente taller tiene como objetivo principal introducirse en el aprendizaje del lenguaje de programación R, aplicado al procesamiento de la Encuesta Permanente de Hogares (EPH - INDEC). Se apunta a brindar a los y las participantes herramientas prácticas para el procesamiento de datos, haciendo énfasis en la producción y el análisis de estadísticas socioe-conómicas con el objetivo de abrir puertas a la realización de investigaciones propias sobre diversas temáticas vinculadas al mercado de trabajo y las condiciones de vida de la población.
-  
-La Encuesta Permanente de Hogares representa un insumo fundamental para realizar estudios sobre el mercado de trabajo y las condiciones de vida de la población. Se hará una introducción a los lineamientos conceptuales principales de la encuesta, en pos de que los y las participantes puedan abordar con datos distintas problemáticas vinculadas al mercado de trabajo y las condiciones de vida de la población.
+El presente taller tiene como objetivo principal introducir a los y las participantes en el aprendizaje del lenguaje de programación R, centrandose en los aspectos de importación de datos, limpieza, tratamiento, visualización y análisis.
 
 ---
 
 ### Contenido:
 
-## Módulo 1: Conceptos Principales de EPH:
+
+## Módulo I: Presentación de la EPH e introducción a R.
   
   + Presentación del curso.
   + Presentación de la Encuesta Permanente de Hogares: Lineamientos conceptuales y metodología
-  + Abordaje del marco teórico y analítico de la EPH y sus aplicaciones prácticas.
   + Síntesis del operativo de campo, cobertura y periodicidad de la Encuesta
-  + Definiciones de las principales variables de interés a abordar en el curso: Condición de actividad, categoría ocupacional, precariedad y pobreza
-  + Metodología usuaria de las Bases de microdatos. Utilización del Diseño de Registro.
+  + R base: Valores / Vectores (variables) / Funciones / Objetos / Data frames (bases de datos)
+  + Paquetes
+  + Proyecto de trabajo
+  + Importación de datos (formatos _.txt_, _.csv_, _.xlsx_, _.sav_, _.dat_)
 
 
-## Módulo 2: R Base y proyectos de trabajo:
-  
-  + Comandos básicos de R base (vectores, objetos, bases de datos)
-  + Diseñar un proyecto de trabajo
-  + Importación y exportación de archivos
+## Módulo II: Procesamiento de datos con el paquete `Tidyverse`:
 
-
-## Módulo 3: Funciones básicas para el procesamiento de datos. Paquetes `Tidyverse` y `eph`:
-  
-  + Limpieza de Base de datos: Renombrar y recodificar variables, tratamiento de valores faltantes (missing values/ NA´s)
-  + Seleccionar variables, ordenar y agrupar la base de datos para realizar cálculos
+  + Limpieza de Base de datos: Renombrar y recodificar variables.
+  + Seleccionar variables, ordenar y agrupar la base de datos
   + Creación de nuevas variables
-  + Aplicar filtros sobre la base de datos
+  + Aplicar filtros sobre la base de datos (definir poblaciones)
+  + Tratamiento de valores faltantes (missing values/ NA´s)
   + Construir medidas de resumen de la información
-  + Tratamiento de variables numéricas (edad, ingresos, horas de trabajo, cantidad de hijos / componentes del hogar, entre otras).
-  + Cálculo de tasas básicas del mercado de trabajo (tasa de actividad, empleo, desempleo, entre otras) 
-  + Cálculo de tasas para distintos subconjuntos poblacionales (por aglomerado, sexo, grupos de edad)
-  
-<br>
+  + Tratamiento de variables numéricas
+  + Tratamiento de variables de texto
 
-## Módulo 4: Visualización de la información con `ggplot2`
+
+## Módulo III: Visualización de la información
   
   + Gráficos elaborados en R (función “ggplot”): 
-    + Gráficos de línea, barras, Boxplots 
-    + Extensiones de ggplot
+  + Gráficos de línea, barras, Boxplots y distribuciones de densidad
+  + Parámetros de los gráficos: Leyendas, ejes, títulos, notas, colores, escala
 
 
-## Módulo 5: Técnica de panel con la EPH
-
-  + Alcances y límites en el uso de la técnica de panel con la EPH.
-  + Construcción y análisis de la matríz del flujo entre categorías de la condición de actividad entre dos trimestres.
-  
-  
-  
-
-
-```{r}
-# xaringanExtra::embed_xaringan(
-#   url = "https://pablotis.github.io/prueba_presentaciones/#1",
-#   ratio = "16:9"
-# )
-```
-
+<br>
