@@ -191,7 +191,7 @@ base_cuidar <- read.csv(
 
 ```r
 base_cuidar <- read.csv(
-  file = "C:/Users/pablo/Documents/Pablo/Cursos R/R+BigData/entradas/certificados-personas-por-fecha-ingreso-provincia-localidad.csv",
+  'file = "C:/Users/pablo/Documents/Pablo/Cursos R/R+BigData/entradas/certificados-personas-por-fecha-ingreso-provincia-localidad.csv",'
   header = TRUE, 
   sep = ",", 
   dec = ".")
@@ -206,29 +206,21 @@ base_cuidar <- read.csv(
 - Si lo cambiamos de lugar, __se rompe__
    
 ---
-# Proyectos y rutas de trabajo
+class: inverse, center, middle
 
-
-### Armando un proyecto con Rstudio, la función se escribiría de esta forma:
-
-```r
-base_cuidar <- read.csv(
-  file = "entradas/certificados-personas-por-fecha-ingreso-provincia-localidad.csv",
-  header = TRUE, 
-  sep = ",", 
-  dec = ".")
+```{r echo=FALSE, out.height = 500, out.width = 800}
+knitr::include_graphics("../img/tomy hanky.gif")
 ```
 
---
+---
+class: inverse, center, middle
 
-### Ventajas: 
-
-    - Le indicamos a R dónde "vive" nuestra carpeta de trabajo
-
-    - La ruta ya no contiene ninguna referencia personal que impida ser abierto en otra computadora
-
+```{r echo=FALSE, out.height = '50%'}
+knitr::include_graphics("../img/Rproject.png")
+```
 
 ---
+
 # Armar un nuevo proyecto
 
 
@@ -282,6 +274,35 @@ knitr::include_graphics("../img/proyecto_nuevo.png")
 
 ]
 
+---
+# Proyectos y rutas de trabajo
+
+
+### Armando un proyecto con Rstudio, la función se escribiría de esta forma:
+
+```r
+base_cuidar <- read.csv(
+  'file = "entradas/certificados-personas-por-fecha-ingreso-provincia-localidad.csv",'
+  header = TRUE, 
+  sep = ",", 
+  dec = ".")
+```
+
+--
+
+### Ventajas: 
+
+    - Le indicamos a R dónde "vive" nuestra carpeta de trabajo
+
+    - La ruta ya no contiene ninguna referencia personal que impida ser abierto en otra computadora
+
+
+---
+class: inverse, middle, center
+
+```{r echo=FALSE, out.height = 500, out.width = 800}
+knitr::include_graphics("../img/la_luz.gif")
+```
 
 ---
 class: inverse, middle, center

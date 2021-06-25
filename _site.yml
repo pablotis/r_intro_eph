@@ -15,11 +15,11 @@ navbar:
     - text: "Diapositivas"
       menu:
         - text: "Modulo 01.a - Intro a la EPH"
-#          href: 0a_diapositivas/01a_r_intro_eph.html  
+          href: 0a_diapositivas/01a_r_intro_eph.html  
         - text: "Modulo 01.b - Intro a R base"
-#          href: 0a_diapositivas/01b_r_intro_presentacion.html
+          href: 0a_diapositivas/01b_r_intro_presentacion.html
         - text: "Modulo 01.c - Proyecto de trabajo"
-#          href: 0a_diapositivas/01c_r_proyecto_de_trabajo.html
+          href: 0a_diapositivas/01c_r_proyecto_de_trabajo.html
         - text: "Modulo 02 - Herramientas de procesamiento de datos"
 #          href: publish_article.html
         - text: "Modulo 03 - Herramientas para la vizualizacion de datos"
@@ -27,7 +27,7 @@ navbar:
     - text: "Ejercitacion"
       menu:
         - text: "Modulo 01.a - R base - Practica"
-#          href: 0b_ejercitacio/01_r_intro_practica.html
+          href: 0b_ejercitacion/01_r_intro_practica.html
         - text: "Modulo 02 - Herramientas de procesamiento de datos"
 #          href: publish_article.html
         - text: "Modulo 03 - Herramientas para la vizualizacion de datos"
