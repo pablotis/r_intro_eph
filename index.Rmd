@@ -12,7 +12,7 @@ El presente taller tiene como objetivo principal introducir a los y las particip
 
 ---
 
-### Contenido:
+## Contenido:
 
 
 ## Módulo I: Presentación de la EPH e introducción a R.
@@ -26,7 +26,7 @@ El presente taller tiene como objetivo principal introducir a los y las particip
   + Importación de datos (formatos _.txt_, _.csv_, _.xlsx_, _.sav_, _.dat_)
 
 
-## Módulo II: Procesamiento de datos con el paquete `Tidyverse`:
+## Módulo II: Procesamiento de datos con el paquete _Tidyverse_:
 
   + Limpieza de Base de datos: Renombrar y recodificar variables.
   + Seleccionar variables, ordenar y agrupar la base de datos
@@ -40,7 +40,7 @@ El presente taller tiene como objetivo principal introducir a los y las particip
 
 ## Módulo III: Visualización de la información
   
-  + Gráficos elaborados en R (función “ggplot”): 
+  + Gráficos elaborados en R (función `ggplot()`): 
   + Gráficos de línea, barras, Boxplots y distribuciones de densidad
   + Parámetros de los gráficos: Leyendas, ejes, títulos, notas, colores, escala
 

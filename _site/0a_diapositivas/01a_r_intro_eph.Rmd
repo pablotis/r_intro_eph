@@ -1,6 +1,6 @@
 ---
 title: "LA EPH"
-subtitle: "Presentación de la Encuesta Permanente de Hogares - INDEC"
+subtitle: "Aspectos metodológicos y operativos de la encuesta"
 autor: "Pablo Tiscornia"
 output:
   xaringan::moon_reader:
@@ -8,25 +8,64 @@ output:
     css: [default, metropolis, metropolis-fonts]
     lib_dir: libs
     nature:
+      ratio: 16:9
       highlightStyle: github
       highlightLines: true
+      highlightSpans: true
       countIncrementalSlides: false
 ---
 
+```{r include=FALSE}
+options(tibble.width = NULL)
+```
+
+```{r include=FALSE}
+hook_source <- knitr::knit_hooks$get('source')
+knitr::knit_hooks$set(source = function(x, options) {
+  x <- stringr::str_replace(x, "^[[:blank:]]?([^*].+?)[[:blank:]]*#<<[[:blank:]]*$", "*\\1")
+  hook_source(x, options)
+})
+```
+
+
+```{r xaringanExtra-clipboard, eval=FALSE, include=FALSE}
+htmltools::tagList(
+ xaringanExtra::use_clipboard(
+   button_text = "<i class=\"fa fa-clipboard\"></i>",
+   success_text = "<i class=\"fa fa-check\" style=\"color: #90BE6D\"></i>",
+ ),
+ rmarkdown::html_dependency_font_awesome()
+)
+```
+
+
+```{r xaringan-extra-styles, echo=FALSE}
+# These are the defaults
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = TRUE  
+)
+```
+
+
+```{r xaringanExtra-scribble, echo=FALSE}
+xaringanExtra::use_scribble()
+```
+
+
 class: inverse, middle, center
 
-# ¿Qué es la EPH?
-
-
 <style type="text/css">
+
 .remark-slide-content {
-    font-size: 30px;
+    font-size: 25px;
     padding: 1em 1em 1em 1em;
 }
 </style>
 
+# ¿Qué es la EPH?
 
-
+***
 
 ---
 class: inverse, middle, center
@@ -132,6 +171,10 @@ class: inverse, middle, center
 
 # Objetivos de la EPH
 
+
+***
+
+
 ---
 
 # Objetivo general
@@ -170,7 +213,7 @@ class: inverse, middle, center
 
 # Características de la EPH
 
-```{r echo=FALSE, out.width = '60%', fig.align = 'center'}
+```{r echo=FALSE, out.width = '50%', fig.align = 'center'}
 knitr::include_graphics("img/hitos_eph.jpg")
 ```
 
