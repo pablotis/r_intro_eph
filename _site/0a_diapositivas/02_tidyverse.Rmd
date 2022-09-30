@@ -147,7 +147,7 @@ class: inverse, middle, center
 - ### Funciones no pensadas para una tarea específica sino para un proceso de trabajo
 
 ```{r echo=FALSE, fig.align = 'center', out.width='50%'}
-knitr::include_graphics(here("img", "circuito del dato.png"))
+knitr::include_graphics(here::here("img", "circuito del dato.png"))
 ```
 
 
@@ -235,7 +235,7 @@ class: middle, center, inverse
   
   
   
-  EL PIPE <img src="../img/pipe.png" alt="Upside-down sloths are so cute", width = "7%">
+  EL PIPE `r knitr::include_graphics(here::here("img", "pipe.png"))`
 
 ***
 
@@ -257,7 +257,9 @@ base_de_datos `%>%`
 
 .pull-right[
 
-<img src="../img/pipe_paso_a_paso.gif">
+```{r echo=FALSE}
+knitr::include_graphics(here::here("img", "pipe_paso_a_paso.gif"))
+```
 
 ]
 
@@ -288,8 +290,8 @@ prop.table(table(b_eph_ind$CH04))
 ### **Con EL PIPE**
 
 
-```{r eval = F}
-`b_eph_ind$CH04` `%>%` # base_de_datos$variable
+```r
+ `b_eph_ind$CH04` `%>%` # base_de_datos$variable
   table() `%>%`        # Paso 1
   prop.table()       # Paso 2
 ```

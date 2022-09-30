@@ -131,18 +131,6 @@ En R la unidad mínima para trabajar son los _valores_:
 #### - `"Esto es un uno"` también es un valor (cáracter).
 
 
----
-# Valores
-
-R permite realizar un sinfin de operaciones con estos valores, por ejemplo, operaciones matemáticas como _sumar_, _restar_, _multiplicar_ o _dividir_:
-
-
-```{r echo=FALSE}
-knitr::include_app("https://pablot.shinyapps.io/ejercicio_xaringan/")
-```
-
-
-
 
 ---
 class: inverse, center, middle

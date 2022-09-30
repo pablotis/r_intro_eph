@@ -6,22 +6,22 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-09T20:36:02-03:00"
+      "last_modified": "2022-09-30T12:41:36-05:00"
     },
     {
       "path": "biblio.html",
       "title": "Bibliografía",
       "description": "Lecturas recomendadas y materiales de apoyo\n",
       "author": [],
-      "contents": "\r\nProcesamiento\r\nAntonio Vazquez Brust (2019). Ciencia de Datos para Gente Sociable.\r\nPaquete eph\r\nWickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. “O’Reilly Media, Inc.”.. Versión en castellano: R para Ciencia de Datos\r\nWickham, H. ggplot2: elegant graphics for data analysis. Springer, 2016.\r\nCONSULTAS\r\nComunidades de R:\r\nR en Buenos Aires\r\nR-Ladies Buenos Aires\r\nStackoverflow\r\nGoogle\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-09T20:36:02-03:00"
+      "contents": "\r\nProcesamiento\r\nAntonio Vazquez Brust (2019). Ciencia de Datos para Gente Sociable.\r\nPaquete eph\r\nWickham, H., & Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. “O’Reilly Media, Inc.”..\r\nVersión en castellano: R para Ciencia de Datos\r\nWickham, H. ggplot2: elegant graphics for data analysis. Springer, 2016.\r\nCONSULTAS\r\nComunidades de R:\r\nR en Buenos Aires\r\nR-Ladies Buenos Aires\r\nStackoverflow\r\nGoogle\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-09-30T12:41:39-05:00"
     },
     {
       "path": "bio.html",
       "title": "Profesor",
       "author": [],
-      "contents": "\r\nPABLO TISCORNIA\r\nSociólogo (UBA), especializado en metodología, producción y procesamiento de datos estadísticos en el ámbito público.\r\nHe participado en la organización y difusión de la comunidad de R en Buenos Aires y en el desarrollo del paquete eph, cuyo principal objetivo es facilitar herramientas y el acceso a datos de la Encuesta Permanente de Hogares - INDEC, mediante el lenguaje de programación R.\r\n Rpubs-pablotis |  pabblo_h |  /pablotis\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-09T20:36:03-03:00"
+      "contents": "\r\nPresentación\r\nHola! , soy Pablo Tiscornia\r\nLicenciado en Sociología (Universidad de Buenos Aires - UBA), especializado en metodología, recolección, procesamiento y análisis de información estadística. Últimamente me encuentro enfocado en la mejora de procesos de trabajo vinculados al tratamiento de datos y en el desarrollo de estrategias para la apertura de datos. Todo con R bajo el braso.\r\nHe participado en la organización y difusión de la comunidad R en Buenos Aires y como coautor en el desarrollo del paquete {eph}, cuyo principal objetivo es facilitar herramientas y el acceso a datos de la Encuesta Permanente de Hogares - INDEC, mediante el lenguaje de programación R.\r\n⚡ Si el cartel dice Datos Abiertos, estadística, R, Software Libre, metodología o programación, ENTRO.\r\n🔭 Actualmente estoy trabajando como Coordinador de Datos en la Dirección de Mercados y Estadística del Ministerio de Turismo y Deportes. Allí desarrollamos el SINTA y el Portal de Datos Abiertos.\r\n\r\nDesempeño profesional\r\nHoy me encuentro coordinando el Área de Datos en la Dirección de Mercados y Estadísticas (DNMyE) del Ministerio de Turismo y Deportes de la Nación (MINTURYDEP).\r\nAnteriormente trabajé como Técnico Analista en el Instituto Nacional de Estadísticas y Censos (INDEC), específicamente en la Dirección de la Encuesta Permanente de Hogares (EPH) y como Procesador de Datos y Analista para el Centro de Estudios para el Desarrollo Económico Metropolitano (CEDEM) de la Dirección General de Estadísticas y Censos (DGEyC) de la Ciudad de Buenos Aires.\r\n\r\nDocencia\r\nEnseño a procesar datos con R en:\r\nDiplomatura Ciencias Sociales Computacionales y Humanidades Digitales -IDAES / UNSAM\r\nCurso de posgrado Big Data e Inteligencia Territorial (FLACSO)\r\nCurso de posgrado Instrumentos de Análisis Urbanos II - Maestría en Economía Urbana / Universidad Torcuato Di Tella.\r\n\r\n\r\nColaboración\r\nCo-autor del paquete {eph}\r\nCo-autor del universo de paquetes para el procesamiento de datos en Turismo dnme-minturdep\r\nCo-Organizador de la Comunidad R en Buenos Aires\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-09-30T12:41:41-05:00"
     },
     {
       "path": "index.html",
@@ -29,7 +29,7 @@
       "description": "Aplicación práctica en la Encuesta Permanente de Hogares (EPH-INDEC)",
       "author": [],
       "contents": "\r\nObjetivos del curso\r\nEl presente taller tiene como objetivo principal introducir a los y las participantes en el aprendizaje del lenguaje de programación R, centrandose en los aspectos de importación de datos, limpieza, tratamiento, visualización y análisis.\r\nContenido:\r\nMódulo I: Presentación de la EPH e introducción a R.\r\nPresentación del curso.\r\nPresentación de la Encuesta Permanente de Hogares: Lineamientos conceptuales y metodología\r\nSíntesis del operativo de campo, cobertura y periodicidad de la Encuesta\r\nR base: Valores / Vectores (variables) / Funciones / Objetos / Data frames (bases de datos)\r\nPaquetes\r\nProyecto de trabajo\r\nImportación de datos (formatos .txt, .csv, .xlsx, .sav, .dat)\r\nMódulo II: Procesamiento de datos con el paquete Tidyverse:\r\nLimpieza de Base de datos: Renombrar y recodificar variables.\r\nSeleccionar variables, ordenar y agrupar la base de datos\r\nCreación de nuevas variables\r\nAplicar filtros sobre la base de datos (definir poblaciones)\r\nTratamiento de valores faltantes (missing values/ NA´s)\r\nConstruir medidas de resumen de la información\r\nTratamiento de variables numéricas\r\nTratamiento de variables de texto\r\nMódulo III: Visualización de la información\r\nGráficos elaborados en R (función ggplot()):\r\nGráficos de línea, barras, Boxplots y distribuciones de densidad\r\nParámetros de los gráficos: Leyendas, ejes, títulos, notas, colores, escala\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-09T20:36:04-03:00"
+      "last_modified": "2022-09-30T12:41:43-05:00"
     },
     {
       "path": "puesta_a_punto.html",
@@ -37,7 +37,7 @@
       "description": "Instalación y ajustes para comenzar el curso\n",
       "author": [],
       "contents": "\r\nDinámica de taller\r\nEste taller está pensado para ser esencialmente práctico. La idea es exponer una presentación por módulo, en donde cada 3 o 4 conceptos se le dedicará un tiempo para poder ejercitar lo visto, previo a continuar con el siguiente contenido.\r\nSe recomienda seguir las presentaciones durante la exposición ya que de ellas se extraerá el código, haciendo más ágil la cursada.\r\nEstrategias metodológicas y Recursos didácticos\r\nLas clases del curso serán teórico-prácticas. Por cada presentación temática se irán planteando ejercicios a medida que se avanza en el contenido, abordando las dudas que vayan surgiendo. Se prioriza la utilización del programa durante la clase.\r\nA lo largo del curso se brindarán sintaxis al estilo “notas de clase”, en las cuales se plasman conjuntamente las líneas de código que se exponen y su correspondiente explicación respecto a los procedimientos realizados. Finalmente, se propondrán ejercicios para resolver fuera de la clase con el objetivo de reforzar los conocimientos vistos en las mismas.\r\nSe busca que, siempre que se pueda, el contenido, ejemplos y ejercicios representen problemáticas y desafíos propios del campo en el que se encuentran insertos los y las participantes.\r\nInstalación de R\r\nAsegurate de tener instalado R en tu computadora previo a comenzar el taller. Desde R-project vas a poder hacerte de R.\r\nSugerencia: instalar rtools, herramienta para poder trabajar con el paquete tidyverse.\r\nInstalación de Rstudio\r\nRstudio es la plataforma desde donde se trabajará durante todo el taller. Si bien debemos tener instalado R, el programa que se abrirá en cada clase y desde donde haremos los ejercicios es Rstudio.\r\nDescargar Rstudio\r\nDescarga de Slack (versión escritorio)\r\nSlack es una plataforma de intercambio que funciona como un chat-foro. Desde allí es posible concentrar la comunicación del curso, difundir material, código como también realizar consultas y respuestas de forma grupal.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-09T20:36:05-03:00"
+      "last_modified": "2022-09-30T12:41:46-05:00"
     },
     {
       "path": "software.html",
@@ -45,7 +45,7 @@
       "description": "Herramientas y programas\n",
       "author": [],
       "contents": "\r\nInstalar\r\nSlack - Espacio de trabajo\r\nR - CRAN (The Comprehensive R Archive Network)\r\nRStudio IDE (Integrated Development Environment)\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-09T20:36:06-03:00"
+      "last_modified": "2022-09-30T12:41:47-05:00"
     }
   ],
   "collections": []

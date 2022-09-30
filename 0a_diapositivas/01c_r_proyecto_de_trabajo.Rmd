@@ -3,7 +3,7 @@ title: "Armando un proyecto de trabajo"
 subtitle: "R + Ciencias Sociales"
 output:
   xaringan::moon_reader:
-    #self_contained: true
+    self_contained: true
     css: [default, metropolis, metropolis-fonts]
     lib_dir: libs
     nature:
@@ -124,7 +124,7 @@ knitr::include_graphics("../img/R5.PNG")
 
 ```r
 
-`install.packages("nombre_del_paquete")`
+ `install.packages("nombre_del_paquete")`
 
 ```
 
@@ -144,7 +144,7 @@ knitr::include_graphics("../img/R5.PNG")
 
 ```r
 
-`library(nombre_del_paquete)`
+ `library(nombre_del_paquete)`
 
 ```
 
@@ -205,12 +205,6 @@ base_cuidar <- read.csv(
     
 - Si lo cambiamos de lugar, __se rompe__
    
----
-class: inverse, center, middle
-
-```{r echo=FALSE, out.height = 500, out.width = 800}
-knitr::include_graphics("../img/tomy hanky.gif")
-```
 
 ---
 class: inverse, center, middle
@@ -296,13 +290,6 @@ base_cuidar <- read.csv(
 
     - La ruta ya no contiene ninguna referencia personal que impida ser abierto en otra computadora
 
-
----
-class: inverse, middle, center
-
-```{r echo=FALSE, out.height = 500, out.width = 800}
-knitr::include_graphics("../img/la_luz.gif")
-```
 
 ---
 class: inverse, middle, center
@@ -477,12 +464,6 @@ base_cuidar_excel <- read_xlsx(path = "../entradas/cuidar_verano_excel.xlsx")
 | `mean()`          | *Calcula el valor promedio de una variable numércia*|
 
 
----
-# Chusmeando la base
-
-```{r echo=FALSE}
-knitr::include_app("https://pablot.shinyapps.io/ejercicio_xaringan/")
-```
 
 ---
 class: inverse, middle, center
