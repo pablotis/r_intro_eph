@@ -35,6 +35,8 @@ navbar:
           href: 0b_ejercitacion/03_visualizacion_practica.html
     - text: "Bibliografia"
       href: biblio.html
+    - text: "Aportes"
+      href: aportes.html
     - icon: fab fa-github
       href: https://github.com/pablotis
       
